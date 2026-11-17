@@ -12,6 +12,7 @@ public class Division {
     }
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
@@ -23,6 +24,7 @@ public class Division {
         try {
             double result = divide(a, b);
             System.out.println("Result: " + result);
+
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
         }
